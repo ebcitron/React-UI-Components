@@ -4,7 +4,7 @@ import './Display.css';
 
 
 const CalculatorDisplay = props => {
-   return( <button className="display">{props.text}</button>
+    return (<button  className="display">{props.total}</button>
    )}
 
 export default CalculatorDisplay;
